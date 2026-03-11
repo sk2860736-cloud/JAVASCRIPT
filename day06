@@ -1,0 +1,101 @@
+// JAVASCRIPT DAY06 STRING AND DATES
+
+// const str1 = "Sachin";// double codes 
+// const str2 = 'Sachin Gupta'; // single codes
+// const str3 = ` I Am Sachin Gupta
+// And I am From gopalganj to teh distric of bihar `;
+
+// console.log(str1,str2,str3);
+
+// const str1 = ` hello sachin gupta!
+//  how can i help you `;
+// console.log(str1);
+
+// const str1 = `hello sachin gupta!
+//  how can i help you `;
+// //  console.log(str1.length);
+// // console.log(str1[0]);
+// str[2]=s; // not change the value necause of they are inmutable . 
+// console.log(str);
+
+// UPPER CASE 
+
+// const str = `hello sachin how can i help you `;
+
+// const a = str.toUpperCase();
+// const b = str.toLowerCase();
+// console.log(a);
+
+// console.log(str.indexOf('anamika'));
+// console.log(str.indexOf('sachin'));
+// console.log(str.lastIndexOf('sachin'));
+// console.log(str.includes('anamika'));
+
+// SLICE 
+
+// const str = `hello sachin how can i help you `;
+// console.log(str.slice(2,7)); // cut 2 index or 7 index 
+// console.log(str.slice(4)); // 4 ke bad sab print ho jayega .
+// console.log(str.slice(-5)); // last se cut hoga negatively opposite side se 
+
+// const str = `hello sachin how can i help you `;
+// console.log(str.substring(2,5));
+ 
+// const a = "Sachin";
+// const b = "Gupta";
+// const c = a + " " + b; // space 
+// console.log(c);
+
+//  const str = ` hello sachin how can i help you `; // dono side ke sapces ko cut kr deta hai .
+// //  const user = "Anamika"
+// //  console.log(user.trim);
+// const user = str.replace("sachin","anmika" );// new value sachin se hata ke anamika ho jayega .
+// console.log(user); // print new user value 
+
+// const str = ` hello sachin how can i help you `; 
+// const user = str.replaceAll(str,"hello anamika how are you ");// sare replace ho jayenge new value me .
+// console.log(user);
+ 
+// split uses 
+
+// const str = "Sachin Deepak Rajmohammad Bablu Vivek Monu "; // all name ko ek arrays ke form me genrate kr deta hain.
+// console.log(str.split(" ")); // space se , khatam 
+// console.log(str.split(",")); // and , se sapce khatam 
+
+
+
+// DATES USES 
+
+// const now = new Date();
+// console.log(now); // utc time deta hain universal time 
+// console.log(now.toString()); // present time on india date and tiime all 
+// console.log(now.toISOString());//universal time 
+// console.log(now.toLocaleTimeString());// indian time and local time present 
+
+// LOCAL TIME CAHL RAH HAIN .
+
+// console.log(now.getDate());// real date indexing rigth 
+// console.log(now.getDay());// day sun = 0 monday = 1 
+// console.log(now.getFullYear()); /// year 20226 
+// console.log(now.getMonth());  // indexing 0 1 2 3 se start hota hain month me 1 ka o 
+// console.log(now.getHours()); // hours present time 8 
+// console.log(now.getSeconds()); // seocnds 
+ 
+// ye sari date and all information hamari jo is laptop ki device se le rha hain 
+
+// days --> mon tue -- > 1 based htoi hain 
+// jabki hamrai month jo o --. 0 based hoti hain 
+
+// const now = new Date(2026,2,8,0,8,52,25,125);
+// console.log(now.toString()); 
+ 
+// time stamp satrt on 1st jan 1970  milisec 
+
+ const time = Date.now(); // miliseconds 
+//  const dates = new Date(now);
+console.log(time);
+//  const dates = new Date (1772941392334);
+//  console.log(dates);
+
+
+
